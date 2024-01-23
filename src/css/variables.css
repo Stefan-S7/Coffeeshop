@@ -30,7 +30,7 @@
   --h3-font-size: 42px;
   --h3-line-height: 1.1;
 
-
+  /* auch als Subhead m  mit line-height 21.09px einzusetzen */
   --body-font: "Roboto";
   --body-font-weight: 400;
   --body-font-size: 18px;
@@ -55,9 +55,10 @@
   --h3m-font-size: 32px;
   --h3m-line-height: 1.1;
 
-  --body-font: "Roboto";
-  --body-font-weight: 400;
-  --body-font-size: 14px;
-  --body-line-height: 1.3;
+  --bodym-font: "Roboto";
+  --bodym-font-weight: 400;
+  --bodym-font-size: 14px;
+  --bodym-line-height: 1.3;
+
 
 }
