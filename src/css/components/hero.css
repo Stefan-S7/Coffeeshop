@@ -8,12 +8,12 @@
 
 .logo-box {
   position: absolute;
-  top: 10px;
-  left: 24px;
+  top: 1rem;
+  left: 2.4rem;
 }
 
 .logo-w {
-  height: 35px;
+  height: 3.5rem;
 
 }
 
@@ -27,7 +27,7 @@
 
 .hero-primary {
   color: var(--white);
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   
   
 }
@@ -36,7 +36,7 @@
   display: block;
   font-size: var(--h1m-font-size);
   font-weight: var(--h1m-font-weight);
-  line-height: 75px;
+  line-height: 7.5rem;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@
   display: block;
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
-  line-height: 21.09px;
+  line-height: 2.1rem;
   text-align: center;
 }
 
