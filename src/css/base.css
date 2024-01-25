@@ -1,17 +1,20 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 
 body {
   font-family: 'Roboto', sans-serif;
   background: var(--white);
+  box-sizing: border-box;
   
   @media (min-width: 768px) {
     color: red;

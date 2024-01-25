@@ -3,18 +3,18 @@
     text-decoration: none;
     padding: 1.5rem 5rem;
     display: inline-block;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
     transition: all .2s;
 }
 
 .btn:hover {
-    transform: translateY(-0.3rem);
+    transform: translateY(-.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
 }
 
 .btn:active {
     transform:translateY(-0.1rem);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 
 .btn-black {
