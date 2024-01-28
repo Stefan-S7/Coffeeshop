@@ -8,11 +8,13 @@
 }
 
 .btn:hover {
+    background-color: #3A3734; 
     transform: translateY(-.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
 }
 
 .btn:active {
+    background-color: var(--beige);
     transform:translateY(-0.1rem);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }

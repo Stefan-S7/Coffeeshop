@@ -9,7 +9,13 @@
 .logo-box {
   position: absolute;
   top: 1rem;
-  left: 2.4rem;
+  left: 2.4rem;  
+}
+
+.nav {
+  position: absolute;
+  top: 1rem;
+  right: 2.4rem;
 }
 
 .logo-w {
