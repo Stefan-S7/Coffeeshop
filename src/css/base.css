@@ -34,6 +34,7 @@ main {
 
 h2 {
     font-size: var(--h2m-font-size);    
+    font-weight: var(--h2m-font-weight);
     line-height: var(--h2m-line-height);
   }
 

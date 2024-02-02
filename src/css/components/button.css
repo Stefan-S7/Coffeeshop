@@ -22,6 +22,11 @@
 .btn-black {
     background-color: var(--black);
     color: var(--white);
+}
 
+.btn-black-border {
+    background-color: var(--black);
+    color: var(--white);
+    border: var(--white) 3px solid;      
 }
 

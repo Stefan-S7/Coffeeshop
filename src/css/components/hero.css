@@ -18,6 +18,11 @@
   right: 2.4rem;
 }
 
+.nav__fixed {
+  width: 100%;
+  position: fixed;
+}
+
 .logo-w {
   height: 3.5rem;
 

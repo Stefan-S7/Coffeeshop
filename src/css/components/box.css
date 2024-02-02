@@ -1,10 +1,37 @@
-.box1 {
+.flexbox1 {
     padding-left: 2.4rem;
     border: 2px solid red;
     margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;    
 }
 
-.box2 {
+.fi__1 {
+    
+}
+
+.fi__2 {
+
+}
+
+.fi__3 {
+
+}
+
+.fi__4 {
+
+}
+
+
+.flexbox2 {
     padding-left: 2.4rem;
     margin-top: 4rem;
+    padding-top: 25rem;
 }
+
+.box3 {
+    background-color: var(--black);
+    color: var(--white);
+    padding-left: -7px;
+}
+
