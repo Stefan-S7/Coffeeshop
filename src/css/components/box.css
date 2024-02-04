@@ -1,37 +1,117 @@
 .flexbox1 {
     padding-left: 2.4rem;
     border: 2px solid red;
+    /*height: 382px;*/
     margin-top: 7rem;
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+   
 }
 
-.fi__1 {
+.fi__1_1 {
+        
+}
+
+.fi__1_2 {
     
 }
 
-.fi__2 {
+.fi__1_3 {
+    
 
 }
 
-.fi__3 {
+.fi__1_4 {
+    
 
 }
 
-.fi__4 {
-
+.fi__1_5 {
+    align-self: flex-end;
+   
+    
 }
 
+.rechts1_5 {
+    
+}
 
 .flexbox2 {
     padding-left: 2.4rem;
     margin-top: 4rem;
-    padding-top: 25rem;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    justify-content: space-between;
+
 }
 
-.box3 {
+.fi__2_1 {
+    width: 173px;
+    height: 38px;
+}
+
+.fi__2_2 {
+    width: 326px;
+    height: 90px;
+}
+
+.fi__2_3 {
+    width: 241px;
+    height: 160px;
+    padding-top: 15px;
+}
+
+.flexbox3 {
     background-color: var(--black);
     color: var(--white);
-    padding-left: -7px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    justify-content: space-around;
 }
+
+.flexboxCostaRica {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.fi__Costa_Rica_2 {
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    line-height: 21.09px;   
+}
+
+.fi__Costa_Rica_3 {
+    font-size: var(--bodym-font-size);
+    font-weight: var(--bodym-font-weight);
+    line-height: var(--bodym-line-height);
+    color: var(--medium-grey);
+}
+
+.fi__3_6 {
+    margin-top: 30px;
+}
+
+.fb__herkunft {
+    background-image: url(../../images/FEND-Coffee-bags-2.jpg);
+    display: flex;
+    color: var(--white);
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 332px; 
+}
+
+
 

@@ -21,6 +21,7 @@
 .nav__fixed {
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .logo-w {
@@ -49,6 +50,7 @@
   font-weight: var(--h1m-font-weight);
   line-height: 7.5rem;
   text-align: center;
+  padding-top: 193px ;
 }
 
 .hero-primary-sub {
