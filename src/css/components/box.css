@@ -13,31 +13,30 @@
 
 .fi__1_5 {
     align-self: flex-end;
+    /*max-width: 100%;
+    height: auto;*/
 }
 
 .flexbox2 {
     padding-left: 2.4rem;
     margin-top: 4rem;
-    height: 340px;
     display: flex;
     flex-wrap: wrap;
     /*border: 2px solid red;*/
     justify-content: space-between;
 }
 
-.fi__2_1 {
-    width: 173px;
+/*.fi__2_1 {
+    /*width: 173px;
     height: 38px;
-}
+}*/
 
-.fi__2_2 {
-    width: 326px;
+/*.fi__2_2 {
+    /*width: 326px;
     height: 90px;
-}
+}*/
 
-.fi__2_3 {
-    width: 241px;
-    height: 160px;
+.fi__2_3 {    
     padding-top: 15px;
 }
 
@@ -50,13 +49,14 @@
     justify-content: space-around;
 }
 
-.flexboxCostaRica {
+.fb__CostaRica {
     display: flex;
     flex-wrap: wrap;
     /*border: 2px solid red;*/
     flex-direction: column;
     margin-top: 30px;
 }
+
 
 .fi__Costa_Rica_2 {
     font-size: var(--body-font-size);
@@ -121,6 +121,88 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.fb__footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    color: var(--white);
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 2.4rem;
+    
+}
+
+/*.fi__footer_1 {
+    /*width: 80%;
+}*/
+
+
+
+.footer_img {
+    margin-bottom: 2rem;
+} 
+
+.footer_sub {
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    line-height: 2.1rem;
+}
+
+.fb__footer_ort_zeit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/*.fi__footer_2 {
+    width: 30%;
+}*/
+
+#footer_text_schwarz {
+    color: var(--black);
+}
+
+/*.fi__footer_3 {
+    /*width: 30%;
+}*/
+
+.fb__footer_link {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/*.fi__footer_4 {
+    /*width: 30%;
+}*/
+
+.fi__footer_4 > a {
+    font-size: var(--bodym-font-size);
+    font-weight: var(--bodym-font-weight);
+    line-height: var(--bodym-line-height);
+    text-decoration: none;
+    color: var(--white);
+}
+
+/*.fi__footer_5 {
+    width: 30%;
+}*/
+
+.fi__footer_5 > a {
+    font-size: var(--bodym-font-size);
+    font-weight: var(--bodym-font-weight);
+    line-height: var(--bodym-line-height);
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+
 
 
 

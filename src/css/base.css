@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
   
   @media (min-width: 768px) {
-    color: red;
+    /*color: red;*/
   }
 }
 
@@ -25,6 +25,7 @@ main {
   margin: 0 auto;
   max-width: 1440px;
   color: var(--black);
+  display: block;
 
 
     @media (min-width: 768px) {
@@ -41,6 +42,12 @@ h2 {
 h3 {
   font-size: var(--h3m-font-size); 
   line-height: var(--h3m-line-height);
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 2.8rem;
 }
 
 p {
