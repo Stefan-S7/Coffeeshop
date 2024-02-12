@@ -1,0 +1,36 @@
+.fb__rösterei {
+    padding: 0 2.4rem;
+    /*border: 2px solid red;*/
+    
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.fi__rösterei_1 {
+    padding-bottom:  5%;
+}
+
+.fi__rösterei_2 {
+    padding-bottom: 5%;
+}
+
+.fi__rösterei_3 {
+    padding-bottom: 5%;
+}
+
+.fi__rösterei_4 {
+    padding-bottom: 5%;
+}
+
+
+.fi__rösterei_5 {
+    padding: 0 0 0 25%;
+    align-self: flex-end;
+}
+
+.fb__gebäck {
+    padding: 0 2.4rem;
+    margin-top: 10%;
+}

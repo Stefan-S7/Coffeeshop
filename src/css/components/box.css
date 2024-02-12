@@ -1,7 +1,7 @@
 .flexbox1 {
     padding: 0 2.4rem;
     /*border: 2px solid red;*/
-    /*height: 382px;*/
+    
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@
 .fi__Costa_Rica_2 {
     font-size: var(--body-font-size);
     font-weight: var(--body-font-weight);
-    line-height: 21.09px;   
+    line-height: 21.09px;  
 }
 
 .fi__Costa_Rica_3 {
@@ -84,6 +84,9 @@
     font-weight: var(--bodym-font-weight);
     line-height: var(--bodym-line-height);
     color: var(--medium-grey);
+    @media (min-width: 992px) {
+        font-size: var(--body-font-size);
+    }
 }
 
 .fi__3_6 {
@@ -110,8 +113,9 @@
     line-height: var(--bodym-line-height);
     text-decoration: none;
     color: var(--white);
-
-
+    @media (min-width: 992px) {
+        font-size: var(--body-font-size);
+    }
 }
 
 .fb__inhalt {
@@ -170,6 +174,10 @@
     font-size: var(--body-font-size);
     font-weight: var(--body-font-weight);
     line-height: 2.1rem;
+}
+
+.fi__footer_1 {
+    margin-bottom: 10%;
 }
 
 .fb__footer_ort_zeit {

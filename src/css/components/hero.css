@@ -4,6 +4,10 @@
   background-size: cover;
   background-position: top;
   position: relative;
+  @media (min-width: 992px) {
+    height: 65vh;
+    background-position: center;
+  }
 }
 
 .logo-box {
@@ -51,6 +55,9 @@
   line-height: 7.5rem;
   text-align: center;
   padding-top: 193px ;
+  @media (min-width: 992px) {
+    font-size: var(--h1-font-size);
+  }
 }
 
 .hero-primary-sub {
