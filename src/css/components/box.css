@@ -1,4 +1,4 @@
-.flexbox1 {
+.fb__main_rösterei {
     padding: 0 2.4rem;
     /*border: 2px solid red;*/
     
@@ -10,31 +10,31 @@
    
 }
 
-.fi__1_1 {
+.fi__main_rösterei_1 {
     padding-bottom:  5%;
 }
 
-.fi__1_2 {
+.fi__main_rösterei_2 {
     padding-bottom: 5%;
 }
 
-.fi__1_3 {
+.fi__main_rösterei_3 {
     padding-bottom: 5%;
 }
 
-.fi__1_4 {
+.fi__main_rösterei_4 {
     padding-bottom: 5%;
 }
 
 
-.fi__1_5 {
+.fi__main_rösterei_5 {
     padding: 0 0 0 25%;
     align-self: flex-end;
     /*max-width: 100%;
     height: auto;*/
 }
 
-.flexbox2 {
+.fb__main_bio {
     padding: 0 2.4rem;
     margin: 5% 0 10% 0;
     display: flex;
@@ -43,25 +43,35 @@
     justify-content: space-between;
 }
 
-.fi__2_1 {
+.fi__main_bio_1 {
     padding-bottom: 5%;    
 }
 
-.fi__2_2 {
+.fi__main_bio_2 {
     padding-bottom: 5%;
 }
 
-.fi__2_3 {    
+.fi__main_bio_3 {    
     padding: 0 25% 0 0;
 }
 
-.flexbox3 {
+.section__main_sorten {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0 2.4rem;
+}
+
+.main__sorten_title {
+    padding-top: 10% ;
+}
+
+.fb__main_sorten {
     background-color: var(--black);
     color: var(--white);
     display: flex;
     flex-wrap: wrap;
     /*border: 2px solid red;*/
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .fb__CostaRica {
@@ -69,7 +79,7 @@
     flex-wrap: wrap;
     /*border: 2px solid red;*/
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 30px;    
 }
 
 
@@ -89,8 +99,41 @@
     }
 }
 
-.fi__3_6 {
+.fi__main_sorten_1 {
+    width: 47%;
+
+    @media (min-width: 992px) {
+        width: 23%;
+    }
+}
+
+.fi__main_sorten_2 {
+    width: 47%;
+
+    @media (min-width: 992px) {
+        width: 23%;
+    }
+}
+
+.fi__main_sorten_3 {
+    width: 47%;
+
+    @media (min-width: 992px) {
+        width: 23%;
+    }
+}
+
+.fi__main_sorten_4 {
+    width: 47%;
+
+    @media (min-width: 992px) {
+        width: 23%;
+    }
+}
+
+.main_sorten_button {
     margin: 15% 0;
+    text-align: center;
 }
 
 .fb__herkunft {
@@ -133,6 +176,7 @@
 
 .fi__inhalt_2 {
     padding-bottom: 5%;
+    margin: 0 10%;
 }
 
 .fb__inhalt_sub {
