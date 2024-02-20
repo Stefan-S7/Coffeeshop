@@ -73,5 +73,14 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  width: 100%;
   background-image: url(../../images/FEND-Coffee-shop.jpg) ;
+}
+
+.hero2 {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url(../../images/FEND-Coffee-beans-hand-2.jpg) ;
 }
