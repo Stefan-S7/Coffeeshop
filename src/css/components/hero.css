@@ -16,17 +16,6 @@
   left: 2.4rem;  
 }
 
-.nav {
-  position: absolute;
-  top: 1rem;
-  right: 2.4rem;
-}
-
-.nav__fixed {
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}
 
 .logo-w {
   height: 3.5rem;
@@ -72,8 +61,7 @@
   height: 50vh;
   background-size: cover;
   background-position: center;
-  position: relative;
-  width: 100%;
+  position: relative;  
   background-image: url(../../images/FEND-Coffee-shop.jpg) ;
 }
 
